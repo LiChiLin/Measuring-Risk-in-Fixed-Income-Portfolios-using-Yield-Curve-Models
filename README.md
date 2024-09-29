@@ -19,7 +19,7 @@ This project presents a risk management framework for fixed income portfolios us
 - **Nelson-Siegel Model**: Captures the yield curve’s level, slope, and curvature.  
   $$
   y(t) = \beta_0 + \beta_1 \frac{1 - e^{-t/\tau}}{t/\tau} + \beta_2 \left( \frac{1 - e^{-t/\tau}}{t/\tau} - e^{-t/\tau} \right)
-  $4
+  $$
 - **Svensson Model**: Extends Nelson-Siegel by adding additional factors for a better fit, particularly for long maturities.
 
 ### 2. Conditional Covariance Matrix
